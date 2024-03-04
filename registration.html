@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>REGISTRATION</h1>
+        <img src="skies 29.jpg" alt="img" height="500vh">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faculty.html">Faculty</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="timetables.html">Timetables</a></li>
+                <li><a href="payments.html">Payments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>REGISTRATION FORM</h2>
+            <img src="skies 28.jpg" alt="img" height="500vh">
+            <img src="skies 33.jpg" alt="img" height="500vh">
+            <form action="submit_registration.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" required><br><br>
+                <label for="department">Department:</label>
+                <select id="department" name="department">
+                    <option value="">(Choose your department)</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Electrical Engineering">Electrical Engineering</option>
+                    <option value="Mechanical Engineering">Mechanical Engineering</option>
+                </select><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <img src="skies 18.jpeg" alt="img" height="500vh">
+   
+    <footer>
+        <p>&copy; 2024 Faculty Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
